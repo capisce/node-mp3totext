@@ -1,0 +1,19 @@
+{
+  "name": "mp3totext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Rødal",
+  "license": "ISC",
+  "dependencies": {
+    "google-cloud": "^0.57.0",
+    "lame": "^1.2.4",
+    "node-flac": "0.0.6"
+  },
+  "bin": {
+    "mp3totext": "./main.js"
+  }
+}
